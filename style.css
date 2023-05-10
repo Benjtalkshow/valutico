@@ -239,30 +239,46 @@ nav .dropdown:hover>.dropmenu {
     display: flex;
     flex-direction: row;
 }
+
 .last-section .last-section-1 {
     width: 50%;
     height: 100%;
 }
+
 .last-section .last-section-1 h1 {
     padding-bottom: 20px;
 }
+
 .last-section .last-section-1 h2 {
     padding: 40px 0px 0px 40px;
 
 }
+
 .last-section .last-section-1 p {
     padding-left: 40px;
 }
+
 .last-section .last-section-2 {
     width: 50%;
-    height: 100%; 
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .last-section .last-section-2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+/*STYLING THE LAST BUTTON*/
+.lastbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-btn {
+    margin: 30px auto;
 }
