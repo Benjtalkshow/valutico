@@ -113,7 +113,7 @@ nav .dropdown:hover>.dropmenu {
 .heading {
     text-align: center;
     font-size: 4rem;
-    padding: 15px 0 15px 0;
+    padding: 25px 0 15px 0;
 }
 .description {
     text-align: center;
@@ -131,4 +131,24 @@ nav .dropdown:hover>.dropmenu {
     background-color: transparent;
     border: 2px solid var(--maintext-color);
     color: var(--maintext-color);
+}
+
+/* BACKGROUND IMAGE STYLING */
+.background-image {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* STYLING OF SECOND HEADING & DESCRIPTION*/
+.heading2 {
+    padding-top: 80px;
+    text-align: center;
+}
+.description2 {
+    text-align: center;
+    padding: 15px 0 15px 0 ;
+    font-size: 1.3rem;
+    word-wrap: break-word;
 }
