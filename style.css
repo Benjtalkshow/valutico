@@ -202,3 +202,28 @@ nav .dropdown:hover>.dropmenu {
     justify-content: center;
     align-items: center;
 }
+
+/* DRAK SECTION STYLING */
+.darksection {
+    margin-top: 40px;
+    width: 100%;
+    height: 40vh;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.darksection .darksection-2 {
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+}
+.darksection .darksection-1{
+    
+    width: 68%;
+}
+.darksection .darksection-2 h2 {
+    padding-bottom: 15px;
+}
