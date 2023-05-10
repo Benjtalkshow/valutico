@@ -215,15 +215,54 @@ nav .dropdown:hover>.dropmenu {
     justify-content: center;
     align-items: center;
 }
+
 .darksection .darksection-2 {
     margin-top: 60px;
     display: flex;
     gap: 40px;
 }
-.darksection .darksection-1{
-    
+
+.darksection .darksection-1 {
+
     width: 68%;
 }
+
 .darksection .darksection-2 h2 {
     padding-bottom: 15px;
+}
+
+/* LAST SECTION STYLING */
+.last-section {
+    margin: 40px auto;
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+.last-section .last-section-1 {
+    width: 50%;
+    height: 100%;
+}
+.last-section .last-section-1 h1 {
+    padding-bottom: 20px;
+}
+.last-section .last-section-1 h2 {
+    padding: 40px 0px 0px 40px;
+
+}
+.last-section .last-section-1 p {
+    padding-left: 40px;
+}
+.last-section .last-section-2 {
+    width: 50%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-section .last-section-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
