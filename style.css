@@ -97,7 +97,7 @@ nav .nav-btn i {
 nav ul li>ul {
     display: block;
     background-color: var(--secondary-color);
-    height: 10vh;
+    height: 11.5vh;
     position: absolute;
     display: none;
     border-bottom: 8px solid var(--maintext-color);
@@ -105,11 +105,13 @@ nav ul li>ul {
 }
 
 nav ul li>ul li {
-    padding-top: 2px;
-    color: var(--secondary-color);
+    padding: 2px 0 2px 0;
 }
 nav ul li>ul li:hover {
     background-color: var(--maintext-color);
+}
+li>ul li a:hover {
+    color: var(--secondary-color);
 }
 nav ul li>ul li a {
     font-size: 1rem;
