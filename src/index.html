@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/tailwind/testcss.css">
+    <script src="https://kit.fontawesome.com/b55a4a1c1f.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>          
+.dashboard-img {
+perspective: 1000px; 
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width: 80%;
+  margin: 80px auto;
+}
+
+.dashboard-img:hover img {
+    transition: transform 0.3s ease; 
+    transform: rotateY(-40deg); 
+}
+        </style>
+    <title>Valutico</title>
+</head>
+
+<body class="font-Poppins">
+    <!-- SCREEN NAV -->
+    <nav class="w-full py-2 px-10 bg-white shadow-md  justify-around items-center flex fixed max-md:justify-between z-10">
+        <img class="small:ml-2 lg:ml-8 xl:ml-12 w-[60px]  small:w-[100px] xl:w-[200px] logo"
+            src="/assets/images/logo.png" alt="valutico logo">
+        <ul class="hidden md:flex justify-evenly items-center gap-x-10 text-sm xl:text-lg u-list">
+            <li class="text-main">Home<i class="fa-sharp fa-solid fa-chevron-down pl-2"></i></li>
+            <li class="">Solution<i class="fa-sharp fa-solid fa-chevron-down pl-2"></i></li>
+            <li class="">Your Work<i class="fa-sharp fa-solid fa-chevron-down pl-2"></i></li>
+            <li class="">Company<i class="fa-sharp fa-solid fa-chevron-down pl-2"></i></li>
+            <li
+                class="demo">
+                Request a demo<i class="fa-regular fa-square-check px-2"></i></li>
+        </ul>
+        <icon class="menu flex hidden max-md:block">
+            <i class="material-icons font-bold cursor-pointer text-main">menu</i>
+        </icon>
+        <icon class="close flex hidden">
+            <i class="material-icons font-bold cursor-pointer text-main">close</i>
+        </icon>
+    </nav>
+    <!-- HERO SECTION -->
+    <section class="hero-section w-full flex justify-center flex-col px-5 lazy-section">
+        <h1
+            class="hero-title text-center text-2xl sm:text-4xl sm:pt-[100px] md:text-5xl md:pt-[150px] lg:text-6xl font-extrabold pt-[100px]">
+            The World's Leading Business <br> Valuation Software</h1>
+        <h4
+            class="hero-description text-center text-sm sm:text-md md:text-lg lg:text-xl xl:text-2xl  text-bold pt-[35px]">
+            Valutico provides the financial services industry and valuation experts with data <br> driven tools to
+            perform accurate company valuations faster and more accurately than ever before.</h4>
+        <div class="btns mt-10 small:flex small:flex-row sm:flex sm:flex-row justify-center align-center gap-x-10">
+            <li
+                class="btn text-white bg-main py-2 px-1 sm:py-5 sm:px-2 rounded-lg border-2 border-main bg-main hover:bg-transparent hover:text-main inline-block cursor-pointer  lg:flex">
+                Request a demo<i class="fa-regular fa-square-check px-2"></i></li>
+            <li
+                class="btn text-main  py-2 px-1 sm:py-5 sm:px-2 rounded-lg border-2 border-main  hover:bg-main hover:text-white inline-block cursor-pointer lg:flex">
+                SignUp/Login</li>
+        </div>
+    </section>
+    <!-- DASHBOARD-IMAGE -->
+    <section class="dashboard-img mt-20 p-auto flex justify-center align-center lazy-section">
+        <img src="/assets/images/image 4.png" alt="dashboard-img" class="w-[90%] h-[90%]">
+    </section>
+    <!-- WRITEUP SECTION -->
+    <section class="write-up w-full mt-20 px-5 lazy-section">
+        <h1
+            class="write-up-title text-center text-sm sm:text-md md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-bold">
+            Trusted by Hundreds of Financial Firms in 75 Countries</h1>
+        <h4 class="hero-description text-center text-sm sm:text-sm md:text-md lg:text-xl xl:text-xl  text-bold pt-[30px">Our team of more than 50 employees is globally distributed and serves both national and international clients in over <br> 75 countries.</h4>
+    </section>
+    <!-- SPONSORS SECTION -->
+    <section class="sponsors lazy-section bg-white w-[80%] my-20 mx-auto gap-y-10 align-center grid grid-cols-4 max-md:gap-0 max-sm:grid-cols-3">        <!-- <div class="col"> -->
+            <div class="boxes"><img src="/assets/images/image 5.png" alt="Allinial global logo"></div>
+            <div class="boxes"><img src="/assets/images/image 5-1.png" alt="Oaklins logo"></div>
+            <div class="boxes"><img src="/assets/images/image 6.png" alt="Russel Bredford logo"></div>
+            <div class="boxes"><img src="/assets/images/image 5-3.png" alt="Crow logo"></div>
+        <!-- </div> -->
+        <!-- <div class="col"> -->
+            <div class="boxes"><img src="/assets/images/image 9.png" alt="BCRH & Associes logo"></div>
+            <div class="boxes"><img src="/assets/images/image 10.png" alt="Praxity logo"></div>
+            <div class="boxes"><img src="/assets/images/image 7.png" alt="Bakertilly logo"></div>
+            <div class="boxes"><img src="/assets/images/image 6.png" alt="Standard chattered logo"></div>
+        <!-- </div> -->
+        <!-- <div class="col"> -->
+            <div class="boxes"><img src="/assets/images/image 10.png" alt="Panda global"></div>
+            <div class="boxes"><img src="/assets/images/image 11.png" alt="Global M&A"></div>
+            <div class="boxes"><img src="/assets/images/image 12.png" alt="CDI logo"></div>
+            <div class="boxes"><img src="/assets/images/image 13.png" alt="Ruddle & Partner logo"></div>
+        <!-- </div> -->
+        </section>
+        <!-- DARK SECTION  -->
+        <section class="darksection lazy-section flex flex-col justify-center align-middle w-full py-20 bg-gray-950 text-white">
+            <div class="darksection-1 w-[80%]">
+                <h1 class="text-4xl py-3 font-bold max-lg:text-3xl max-sm:text-2xl">Why Valutico?</h1>
+                <p class="text-lg">An award-winning fintech providing a range of company valuation solutions, Valutico provides <br> the
+                    financial services industry and valuation experts with data-driven tools.</p>
+            </div>
+            <div class="darksection-2 w-[80%] mt-10 flex md:flex-row md:gap-x-10 smaller:flex-col smaller:gap-[20px]  justify-start gap-x-10 p-0">
+                <div class="writeup">
+                    <h2 class="text-xl font-bold py-3">Secure</h2>
+                    <p class="text-lg">Private by default, creating a safe <br> space around your projects and your data.</p>
+                </div>
+                <div class="writeup">
+                    <h2 class="text-xl font-bold py-3">Reliable</h2>
+                    <p class="text-lg">Created by valuation experts for <br> valuation professionals.</p>
+                </div>
+                <div class="writeup">
+                    <h2 class="text-xl font-bold py-3">Dedicated to your success</h2>
+                    <p class="text-lg">24/7 support and multi-language capabilities <br> to support your needs.</p>
+                </div>
+            </div>
+        </section>
+            <!-- LAST SECTION  -->
+        <section class="last-section mt-20 flex max-lg:flex-col justify-center gap-10 px-10 lazy-section">
+            <div class="last-section-1">
+                <div class="sub-sec">
+                    <h1 class="text-4xl pt-3 font-bold max-lg:text-3xl max-sm:text-2xl">Accurate Valuations in Minutes</h1>
+                    <a class="text-lg">Find the company data you need in seconds,
+                        with 3TB of global financial <br> data featuring
+                        almost 1 million transactions and over 50,000 <br>
+                        thousand comparable peers</a>
+                </div>
+                <div class="sub-sec mt-8 ml-10 max-lg:ml-0">
+                    <h2 class="text-xl font-bold pt-3">Personalise Your Reports</h2>
+                    <p class="text-lg">Save hours transferring results from spreadsheet to slides,
+                        <br> by exporting your results to Powerpoint <br>
+                        and Word templates effortlessly.
+                    </p>
+                </div>
+                <div class="sub-sec mt-8 ml-10 max-lg:ml-0">
+                    <h2 class="text-xl font-bold pt-3">28 Valuation Method Options</h2>
+                    <p class="text-lg">From loss-making companies to mature enterprises, and
+                        <br> from startups to SME's, value businesses of
+                        any type <br> using multiple valuation methods.
+                    </p>
+                </div>
+                <div class="sub- mt-8 ml-10 max-lg:ml-0">
+                    <h2 class="text-xl font-bold pt-3">Fast Access to Premium Data</h2>
+                    <p class="text-lg">Access the most highly-trusted global databases <br>
+                        of company financial data to locate the <br> figures you need.</p>
+                </div>
+            </div>
+            <div class="last-section-2 overflow-hidden">
+                <img src="/assets/images/image.png" alt="" class="h-[600px] w-[600px] z-[-1] max-lg:w-[100%] max-lg:h-[100%]">
+            </div>
+        </section>
+        <section class="last-btn flex justify-center my-10 lazy-section">
+            <li class="demo">Request a demo<i class="fa-regular fa-square-check px-2"></i></li>
+        </section>
+</body>
+<script src="/src/app.js"></script>
+</html>
