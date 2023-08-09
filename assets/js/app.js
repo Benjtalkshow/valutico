@@ -1,22 +1,23 @@
-const menu = document.querySelector('.menu')    
-const close = document.querySelector('.close')
+const menu = document.querySelector('.menu'); const close = document.querySelector('.close')
+const navbar = document.querySelector('#navbar'); const ul = document.querySelector('#ul-list')
+const list_items = document.querySelectorAll('#list'); const darksection = document.querySelector('.darksection');
 
 menu.addEventListener('click',()=> {
- close.classList.remove('hidden')
- menu.classList.remove('max-md:block')
+  menu.classList.remove('max-md:block');
+ close.classList.remove('hidden');
+ ul.classList.remove('hidden');
+  navbar.classList.remove('shadow-md','bg-white');
 })
 
 close.addEventListener('click',()=> {
-  menu.classList.add('max-md:block')
-  close.classList.add('hidden')
+  menu.classList.add('max-md:block'); 
+  close.classList.add('hidden');
+  ul.classList.add('hidden'); 
+  navbar.classList.add('shadow-md','bg-white');
 })
+
     
-    
-    
-    
-    
-    
-    
+
     // Function to handle the intersection of the observed elements
     class BootStrapAnimation {
       #section;
