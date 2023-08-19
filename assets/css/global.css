@@ -62,8 +62,9 @@ perspective: 1000px;
     left: 0;
     padding: 5em 0 20px 0;
     z-index: -1;
-    backdrop-filter: blur(4px);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.253);
+    box-shadow: 10px 10px 5px 0px #00000015;
+    /* backdrop-filter: blur(4px); */
+    background-color: #fff;
 }  
 }
 
